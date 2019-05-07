@@ -34,7 +34,7 @@ gem 'dotenv-rails'
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'rack_session_access'
+   gem 'rack_session_access'
   gem 'webmock'
 end
 
@@ -56,4 +56,6 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'pry'
 end

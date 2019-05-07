@@ -8,3 +8,13 @@
     <%= submit_tag("Create") %>
   <% end %>
 </div>
+
+
+<div class="" align="center">
+  <h3>GitHub User login: <%= @body['login']%></h3>
+
+  <% @repos_body.each do |repo| %>
+  <li><%= repo['name'] %></li>
+  <% end %>
+
+</div>
