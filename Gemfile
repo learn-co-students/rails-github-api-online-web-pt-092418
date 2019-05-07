@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'figaro'
 # Use Pry for testing
-gem 'pry'
+#gem 'pry'
 # Use Faraday for GET and POST
 gem 'faraday'
 # Dot-env
@@ -34,7 +34,7 @@ gem 'dotenv-rails'
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
-   gem 'rack_session_access'
+   # gem 'rack_session_access'
   gem 'webmock'
 end
 
