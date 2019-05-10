@@ -29,13 +29,15 @@ gem 'pry'
 gem 'faraday'
 # Dot-env
 gem 'dotenv-rails'
+# pagination library
+gem 'kaminari'
 
 #Testing
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'rack_session_access'
-  gem 'webmock'
+
 end
 
 # Use ActiveModel has_secure_password
