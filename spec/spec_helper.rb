@@ -1,9 +1,9 @@
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
-
-require 'capybara/dsl'
 require 'capybara/rails'
+require 'capybara/dsl'
+
 require 'capybara/rspec'
 require 'webmock/rspec'
 require 'rack_session_access/capybara'
